@@ -1,16 +1,16 @@
 
-const url = 'http://127.0.0.1:5500/'
+
 
 const navElements = [
-    {title:'Home', link:`${url}pages/home.html`},
-    {title:'Productos', link:`${url}pages/productos.html`},
-    {title:'Listado', link:`${url}pages/listado.html`},
+    {title:'Home', link:`/Pages/home.html`},
+    {title:'Productos', link:`/Pages/productos.html`},
+    {title:'Listado', link:`/Pages/listado.html`},
 ]
 
 const navElements2 = [
-    {title:'Ingresar', link:`${url}pages/users/login.html`, id: 'login-link'},
-    {title:'Registrarse', link:`${url}pages/users/register.html`, id: 'register-link'},
-    {title:'', link:`${url}pages/compras/carrito.html`, icon: 'bi-cart4', id: 'cart-link'},
+    {title:'Ingresar', link:`/Pages/users/login.html`, id: 'login-link'},
+    {title:'Registrarse', link:`/Pages/users/register.html`, id: 'register-link'},
+    {title:'', link:`/Pages/compras/carrito.html`, icon: 'bi-cart4', id: 'cart-link'},
 ]
 
 
