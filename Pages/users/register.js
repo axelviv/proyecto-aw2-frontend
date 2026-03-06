@@ -8,7 +8,7 @@ document.getElementById('registerForm').addEventListener('submit', async (e) => 
     const contraseña = document.getElementById('password').value;
 
     try {
-        const response = await fetch('http://localhost:3000/api/usuarios/create', {
+        const response = await fetch('https://proyecto-aw2-backend.onrender.com/api/usuarios/create', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
