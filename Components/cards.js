@@ -1,5 +1,5 @@
 
-const url = './'
+const url = '/'
 
 export const cardComponent = (cardsElements) => `
     ${
